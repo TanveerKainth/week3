@@ -42,4 +42,14 @@ public static final String[] SUITS={"diamonds","clubs","spades","hearts"};
     //int value= // 
            // return value;
 //}
+    public int randomValue()
+    {
+        int value=(int)Math.floor((Math.random()*13)+1);
+        return value;
+    }
+    public int randomSuit()
+    {
+        int suits=(int)(Math.random() * 4);
+        return suits;
+    }
 }
